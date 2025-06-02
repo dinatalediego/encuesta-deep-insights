@@ -62,6 +62,6 @@ def combinar_y_guardar(mod100_path, mod200_path, salida_csv, n=100):
 if __name__ == "__main__":
     MOD_100_PATH = Path("./data/Enaho01-2024-100.csv")
     MOD_200_PATH = Path("./data/Enaho01-2024-200.csv")
-    SALIDA_PATH = Path("./data/base_limpia_enaho.csv")
+    SALIDA_PATH = Path("./data/enaho_2024_limpio.csv")
 
     combinar_y_guardar(MOD_100_PATH, MOD_200_PATH, SALIDA_PATH, n=100)
