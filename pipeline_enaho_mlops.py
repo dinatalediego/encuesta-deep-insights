@@ -32,7 +32,7 @@ import os
 
 # Ruta relativa para MLOps
 BASE_PATH = Path(".")
-DATA_PATH = BASE_PATH / "datos" / "enaho_2024_limpio.csv"
+DATA_PATH = BASE_PATH / "data" / "enaho_2024_limpio.csv"
 ARTIFACTS_PATH = BASE_PATH / "artifacts"
 ARTIFACTS_PATH.mkdir(exist_ok=True)
 
