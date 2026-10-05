@@ -3,11 +3,6 @@
 name: Entrenamiento ENAHO MLOps
 
 on:
-  push:
-    paths:
-      - '**.py'
-      - 'datos/**'
-      - '.github/workflows/**'
   workflow_dispatch:
 
 jobs:
